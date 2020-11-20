@@ -13,7 +13,7 @@
 		032474BB2568647400FA9270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032474B92568647400FA9270 /* Main.storyboard */; };
 		032474BD2568647400FA9270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032474BC2568647400FA9270 /* Assets.xcassets */; };
 		032474C02568647400FA9270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032474BE2568647400FA9270 /* LaunchScreen.storyboard */; };
-		032474C92568679300FA9270 /* CurrencyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032474C82568679300FA9270 /* CurrencyTxtField.swift */; };
+		032474CF25687AA400FA9270 /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032474CE25687AA400FA9270 /* CurrencyTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		032474BC2568647400FA9270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		032474BF2568647400FA9270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		032474C12568647400FA9270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		032474C82568679300FA9270 /* CurrencyTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTxtField.swift; sourceTree = "<group>"; };
+		032474CE25687AA400FA9270 /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 		032474CB25686D1200FA9270 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				032474C82568679300FA9270 /* CurrencyTxtField.swift */,
+				032474CE25687AA400FA9270 /* CurrencyTextField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -148,9 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				032474C92568679300FA9270 /* CurrencyTxtField.swift in Sources */,
 				032474B82568647400FA9270 /* ViewController.swift in Sources */,
 				032474B42568647400FA9270 /* AppDelegate.swift in Sources */,
+				032474CF25687AA400FA9270 /* CurrencyTextField.swift in Sources */,
 				032474B62568647400FA9270 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
